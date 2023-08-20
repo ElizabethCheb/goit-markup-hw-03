@@ -39,7 +39,7 @@ button {
   height: 72px;
   border-bottom: 1px solid var(--cornflower, #e7e9fc);
   background: var(--white, #fff);
-  margin: 0;
+  margin: 0 auto;
   padding: 0 15px;
 }
 .menu_nav {
@@ -58,7 +58,7 @@ button {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  margin: 24px 76px 24px 156px;
+  margin: 24px 76px 24px 0;
 }
 .studio {
   color: var(--navyblue, #2e2f42);
@@ -137,7 +137,7 @@ button {
   font-weight: 700;
   line-height: 1.07; /* 60px / 56px = 1.07143 */
   letter-spacing: 0.02em;
-  margin: 0;
+  margin: 0 0 0 0;
   padding: 188px 472px 48px 472px;
 }
 .button {
