@@ -4,8 +4,13 @@ body {
   background-color: #fff;
   color: #434455;
   margin: 0;
+  width: 1158px;
+  padding: 0 15px;
 }
 .container {
+  padding-bottom: 0px;
+  justify-content: center;
+  background: var(--white, #fff);
   width: 1440px;
 }
 a {
@@ -21,6 +26,7 @@ button {
   margin: 1px 635px 188px 636px;
 }
 .top_line {
+  border-bottom: 1px solid #e7e9fc;
   justify-content: center;
   align-items: center;
   flex-shrink: 0;
@@ -30,7 +36,6 @@ button {
 }
 .header_container {
   display: flex;
-  justify-content: space-between;
   width: 1440px;
   height: 72px;
   border-bottom: 1px solid var(--cornflower, #e7e9fc);
@@ -38,7 +43,7 @@ button {
 }
 .menu_nav {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
 }
 .logo {
   display: inline-flex;
@@ -71,6 +76,7 @@ button {
   padding-left: 0;
 }
 .li_nav {
+  display: flex;
   color: var(--iris, #2e2f42);
   font-family: "Roboto", sans-serif;
   font-size: 16px;
@@ -124,13 +130,12 @@ button {
   text-align: center;
   /* Header 1 */
   font-family: "Roboto";
-  font-size: 56px;
+  font-size: 55px;
   font-style: normal;
   font-weight: 700;
   line-height: 1.07; /* 60px / 56px = 1.07143 */
   letter-spacing: 0.02em;
-  margin-top: 0;
-  margin-bottom: 0;
+  margin: 0;
   padding: 188px 472px 48px 472px;
 }
 .button {
@@ -317,11 +322,7 @@ button {
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
   margin: 0 0 120px 0;
 }
-.container {
-  padding-bottom: 0px;
-  justify-content: center;
-  background: var(--white, #fff);
-}
+
 .photo_of_team {
   background: url(<path-to-image>),
     lightgray -97.034px -0.927px / 181.897% 251.37% no-repeat;
