@@ -4,14 +4,14 @@ body {
   background-color: #fff;
   color: #434455;
   margin: 0;
-  width: 1158px;
+  width: 1440px;
   padding: 0 15px;
 }
 .container {
   padding-bottom: 0px;
   justify-content: center;
   background: var(--white, #fff);
-  width: 1440px;
+  width: 1158px;
 }
 a {
   text-decoration: none;
