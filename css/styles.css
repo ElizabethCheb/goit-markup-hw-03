@@ -346,17 +346,26 @@ button {
 .table {
   justify-content: center;
 }
-.section4 {
+.exampels {
   width: 1440;
   height: 1240;
   flex-shrink: 0;
   background: #fff;
+  padding-top: 120px;
 }
-.title_section4 {
+.exampels_ {
+  width: 1440;
+  height: 1240;
+  flex-shrink: 0;
+  background: #fff;
+  padding: 32px 16px;
+}
+.title_exampels {
   color: var(--navyblue, #2e2f42);
   text-align: center;
-  margin: 120px 611px 72px 611px;
-
+  margin-bottom: 72px;
+  margin-left: 611px;
+  margin-right: 611px;
   /* Header 2 */
   font-family: Roboto;
   font-size: 35px;
@@ -385,7 +394,7 @@ button {
 }
 .project_card1 {
   display: flex;
-  width: 360px;
+  width: calc((100% - 48px) / 3);
   height: 420px;
   padding-bottom: 0px;
   flex-direction: column;
@@ -393,11 +402,10 @@ button {
   flex-shrink: 0;
   border: 1px solid var(--cornflower, #e7e9fc);
   background: var(--white, #fff);
-  margin: 0 24px 48px 156px;
 }
 .project_card2 {
   display: flex;
-  width: 360px;
+  width: calc((100% - 48px) / 3);
   height: 420px;
   padding-bottom: 0px;
   flex-direction: column;
@@ -405,11 +413,10 @@ button {
   flex-shrink: 0;
   border: 1px solid var(--cornflower, #e7e9fc);
   background: var(--white, #fff);
-  margin: 0 24px 48px 0;
 }
 .project_card3 {
   display: flex;
-  width: 360px;
+  width: calc((100% - 48px) / 3);
   height: 420px;
   padding-bottom: 0px;
   flex-direction: column;
@@ -417,11 +424,14 @@ button {
   flex-shrink: 0;
   border: 1px solid var(--cornflower, #e7e9fc);
   background: var(--white, #fff);
-  margin: 0 156px 48px 0;
 }
 .our_exampels {
   margin: 0;
   padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
 }
 .card_content_portfolio {
   display: flex;
