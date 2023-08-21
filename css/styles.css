@@ -8,8 +8,6 @@ body {
   padding: 0;
 }
 .container {
-  padding-bottom: 0px;
-  background: var(--white, #fff);
   width: 1440px;
 }
 a {
@@ -139,7 +137,7 @@ button {
   text-align: center;
   max-width: 496px;
   /* Header 1 */
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-size: 55px;
   font-style: normal;
   font-weight: 700;
@@ -179,7 +177,7 @@ button {
   color: var(--white, #fff);
 
   /* Button Text */
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -232,7 +230,7 @@ button {
   color: var(--navyblue, #2e2f42);
 
   /* Header 3 */
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
@@ -244,7 +242,7 @@ button {
   color: var(--slate, #434455);
 
   /* Body */
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -262,7 +260,7 @@ button {
 }
 .our_team_ {
   width: 1440px;
-  height: 492px;
+  height: 524px;
   flex-shrink: 0;
   background: var(--cloud, #f4f4fd);
 }
@@ -272,7 +270,7 @@ button {
   text-align: center;
 
   /* Header 2 */
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-size: 35px;
   font-style: normal;
   font-weight: 700;
@@ -286,7 +284,6 @@ button {
 .place_for_cart {
   display: flex;
   margin: 0 150px;
-  padding: 32px 0;
   gap: 24px;
 }
 .team_card {
@@ -313,7 +310,7 @@ button {
   text-align: center;
 
   /* Header 3 */
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
@@ -326,7 +323,7 @@ button {
   text-align: center;
 
   /* Body */
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -363,11 +360,12 @@ button {
 .title_exampels {
   color: var(--navyblue, #2e2f42);
   text-align: center;
+  margin-top: 0;
   margin-bottom: 72px;
   margin-left: 611px;
   margin-right: 611px;
   /* Header 2 */
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-size: 35px;
   font-style: normal;
   font-weight: 700;
@@ -403,27 +401,28 @@ button {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  gap: 8px;
   align-self: stretch;
   padding: 32px 16px;
+  border-top: none;
   border: 1px solid var(--cornflower, #e7e9fc);
 }
 .name_card {
   color: var(--navyblue, #2e2f42);
   /* Header 3 */
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
   line-height: 1.2; /* 120% */
   letter-spacing: 0.02em;
+  margin-top: 0;
   margin-bottom: 8px;
 }
 .text_card {
   color: var(--slate, #434455);
 
   /* Body */
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
@@ -431,7 +430,7 @@ button {
 }
 .dark_futter {
   width: 1440px;
-  height: 312px;
+  height: 112px;
   flex-shrink: 0;
   background: var(--navyblue, #2e2f42);
   padding: 100px 0;
@@ -442,27 +441,37 @@ button {
   height: 24px;
   align-items: center;
   flex-shrink: 0;
-}
-.white_studio {
-  justify-content: center;
-  color: var(--cloud, #f4f4fd);
-  font-family: Raleway;
+  color: var(--iris, #4d5ae5);
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
   line-height: 1.16667; /* 116.667% */
-  letter-spacing: 0.54px;
+  letter-spacing: 0.04em;
+}
+.white_studio {
+  justify-content: center;
+  color: var(--cloud, #f4f4fd);
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.16667; /* 116.667% */
+  letter-spacing: 0.04em;
   text-transform: uppercase;
 }
 .dark_href {
   display: inline-block;
   margin-bottom: 16px;
+  margin-left: 156px;
+  text-transform: uppercase;
 }
 .text_futter {
   color: var(--cloud, #f4f4fd);
   max-width: 264px;
+  max-height: 72px;
   /* Body */
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
