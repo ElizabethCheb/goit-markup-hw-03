@@ -352,6 +352,7 @@ button {
   flex-shrink: 0;
   background: #fff;
   padding-top: 120px;
+  padding-bottom: 120px;
 }
 .exampels_ {
   width: 1440;
@@ -376,7 +377,7 @@ button {
   text-transform: capitalize;
 }
 
-.row1 {
+.row_one {
   width: 1128px;
   height: 420px;
   flex-shrink: 0;
@@ -384,7 +385,7 @@ button {
   align-items: flex-start;
   margin-bottom: 48px;
 }
-.row2 {
+.row_two {
   width: 1128px;
   height: 420px;
   flex-shrink: 0;
@@ -392,7 +393,7 @@ button {
   align-items: flex-start;
   margin-bottom: 120px;
 }
-.project_card1 {
+.project_card_one {
   display: flex;
   width: calc((100% - 48px) / 3);
   height: 420px;
@@ -403,7 +404,7 @@ button {
   border: 1px solid var(--cornflower, #e7e9fc);
   background: var(--white, #fff);
 }
-.project_card2 {
+.project_card_two {
   display: flex;
   width: calc((100% - 48px) / 3);
   height: 420px;
@@ -414,7 +415,7 @@ button {
   border: 1px solid var(--cornflower, #e7e9fc);
   background: var(--white, #fff);
 }
-.project_card3 {
+.project_card_three {
   display: flex;
   width: calc((100% - 48px) / 3);
   height: 420px;
