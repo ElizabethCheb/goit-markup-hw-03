@@ -255,17 +255,17 @@ button {
 }
 .our_team {
   width: 1440px;
-  height: 460px;
+  height: 492px;
   flex-shrink: 0;
   background: var(--cloud, #f4f4fd);
   padding: 120px 0;
 }
 .our_team_ {
   width: 1440px;
-  height: 460px;
+  height: 492px;
   flex-shrink: 0;
   background: var(--cloud, #f4f4fd);
-  padding: 0;
+  padding: 32px 0;
 }
 
 .team_title {
@@ -280,15 +280,19 @@ button {
   line-height: 1.11; /* 111.111% */
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  padding: 0 639px 72px 639px;
-  margin: 0;
+  padding: 0 639px 0 639px;
+  margin-top: 0;
+  margin-bottom: 72px;
 }
 .place_for_cart {
-  margin: 0;
+  display: flex;
+  margin: 0 150px;
   padding: 0;
+  gap: 24px;
 }
-.team_card1 {
+.team_card {
   display: inline-flex;
+  width: calc((100% - 3 * 24px) / 4);
   padding-bottom: 0px;
   flex-direction: column;
   justify-content: center;
@@ -298,46 +302,7 @@ button {
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
-  margin: 0 24px 0 156px;
-}
-.team_card2 {
-  display: inline-flex;
-  padding-bottom: 0px;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  border-radius: 0px 0px 4px 4px;
-  background: var(--white, #fff);
-  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
-    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
-    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
-  margin: 0 24px 0 0;
-}
-.team_card3 {
-  display: inline-flex;
-  padding-bottom: 0px;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  border-radius: 0px 0px 4px 4px;
-  background: var(--white, #fff);
-  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
-    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
-    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
-  margin: 0 24px 0 0;
-}
-.team_card4 {
-  display: inline-flex;
-  padding-bottom: 0px;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  border-radius: 0px 0px 4px 4px;
-  background: var(--white, #fff);
-  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
-    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
-    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
-  margin: 0 0 0 0;
+  margin: 0;
 }
 
 .photo_of_team {
@@ -355,7 +320,7 @@ button {
   font-weight: 500;
   line-height: 1.2; /* 120% */
   letter-spacing: 0.02em;
-  margin: 0;
+  margin: 0 0 8px 0;
 }
 .position {
   color: var(--slate, #434455);
@@ -377,7 +342,6 @@ button {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 8px;
   margin: 32px 16px;
 }
 .table {
