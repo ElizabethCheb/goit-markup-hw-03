@@ -470,13 +470,14 @@ button {
   height: 312px;
   flex-shrink: 0;
   background: var(--navyblue, #2e2f42);
+  padding: 100px 0;
 }
 .dark_logo {
-  display: inline-flex;
+  display: inline-block;
+  margin-bottom: 16px;
   height: 24px;
   align-items: center;
   flex-shrink: 0;
-  margin: 100px 1169px 16px 156px;
 }
 .white_studio {
   justify-content: center;
@@ -489,9 +490,13 @@ button {
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
+.dark_href {
+  display: inline-block;
+  margin-bottom: 16px;
+}
 .text_futter {
   color: var(--cloud, #f4f4fd);
-
+  max-width: 264px;
   /* Body */
   font-family: Roboto;
   font-size: 16px;
