@@ -255,10 +255,19 @@ button {
 }
 .our_team {
   width: 1440px;
-  height: 732px;
+  height: 460px;
   flex-shrink: 0;
   background: var(--cloud, #f4f4fd);
+  padding: 120px 0;
 }
+.our_team_ {
+  width: 1440px;
+  height: 460px;
+  flex-shrink: 0;
+  background: var(--cloud, #f4f4fd);
+  padding: 0;
+}
+
 .team_title {
   color: var(--navyblue, #2e2f42);
   text-align: center;
@@ -271,7 +280,7 @@ button {
   line-height: 1.11; /* 111.111% */
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  padding: 120px 639px 72px 639px;
+  padding: 0 639px 72px 639px;
   margin: 0;
 }
 .place_for_cart {
@@ -289,7 +298,7 @@ button {
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
-  margin: 0 24px 120px 156px;
+  margin: 0 24px 0 156px;
 }
 .team_card2 {
   display: inline-flex;
@@ -302,7 +311,7 @@ button {
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
-  margin: 0 24px 120px 0;
+  margin: 0 24px 0 0;
 }
 .team_card3 {
   display: inline-flex;
@@ -315,7 +324,7 @@ button {
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
-  margin: 0 24px 120px 0;
+  margin: 0 24px 0 0;
 }
 .team_card4 {
   display: inline-flex;
@@ -328,7 +337,7 @@ button {
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
-  margin: 0 0 120px 0;
+  margin: 0 0 0 0;
 }
 
 .photo_of_team {
