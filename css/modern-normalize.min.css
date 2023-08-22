@@ -1,9 +1,9 @@
 /*! modern-normalize v0.6.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
 *,
-/* ::after,
+::after,
 ::before {
   box-sizing: border-box;
-} */
+}
 :root {
   -moz-tab-size: 4;
   tab-size: 4;
